@@ -1,11 +1,13 @@
-import { Hello } from 'react-protocol-360-viewer';
+import React from 'react';
+// @ts-ignore
+import { React360Viewer } from 'react-protocol-360-viewer';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Hello name="Fast" />
+      <React360Viewer name="Fast 1234" />
     </div>
   );
 }
